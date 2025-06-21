@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="assets/AI-Recommend.png" alt="preview" width="600"/>
+</p>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange?logo=streamlit)
+![Status](https://img.shields.io/badge/Project-Ready-success)
+
+</div>
 # 🎯 AI-рекомендатель: чем заняться вечером?
 
 Интерактивное приложение, которое подскажет, как провести вечер, учитывая:
