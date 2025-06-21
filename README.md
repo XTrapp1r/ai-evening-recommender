@@ -36,7 +36,7 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/твоя-ссылка.git
+git clone git clone https://github.com/XTrapp1r/ai-evening-recommender.git
 cd evening-recommender
 
 # 2. Создать и активировать окружение
