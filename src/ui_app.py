@@ -6,10 +6,8 @@ API_KEY = "e7b8f1f1c4796a59a6dd3230aaaa6b9a"
 
 st.title("AI-рекомендатель: чем заняться вечером?")
 
-# Ввод города
 city = st.text_input("Введите город", value="Санкт-Петербург")
 
-# Ввод интересов
 st.subheader("Ваши интересы:")
 interests = st.multiselect(
     "Выберите, что вам нравится:",
@@ -26,7 +24,6 @@ if st.button("Получить рекомендации"):
         st.write(f"Описание: {weather['погодное описание']}")
         st.write(f"Скорость ветра: {weather['ветер']} м/с")
 
-        # Рекомендации
         st.subheader("Рекомендации:")
         message = generate_recommendation(weather, interests)
         st.write(message)

@@ -32,28 +32,24 @@
 - Requests
 - OpenWeather API
 
-1. Клонировать репозиторий:
+## 🚀 Установка и запуск
 
 ```bash
-1. git clone https://github.com/твоя-ссылка.git
-
+# 1. Клонировать репозиторий
+git clone https://github.com/твоя-ссылка.git
 cd evening-recommender
 
-2. Создать виртуальное окружение и активировать:
-
+# 2. Создать и активировать окружение
 python -m venv venv
-.\venv\Scripts\activate        # для Windows
-                               # или
-source venv/bin/activate       # для Mac/Linux
+.\venv\Scripts\activate   # Windows
+# или
+source venv/bin/activate # Mac/Linux
 
-3. Установить зависимости:
-
+# 3. Установить зависимости
 pip install -r requirements.txt
 
-4. Вставить свой API-ключ в src/ui_app.py:
+# 4. Вставить API-ключ в src/ui_app.py
+# API_KEY = "твой_ключ_сюда"
 
-API_KEY = "твой_ключ_сюда"
-
-▶️ Запуск
-
+# 5. Запуск
 streamlit run src/ui_app.py
